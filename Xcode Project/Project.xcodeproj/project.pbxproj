@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E20FA18827C1E24D007748C9 /* iCloudKeyValueStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20FA18727C1E24D007748C9 /* iCloudKeyValueStorage.swift */; };
+		E2E3925327C1C81B00141FB1 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E3925227C1C81B00141FB1 /* Main.swift */; };
+		E2E3925527C1C81B00141FB1 /* MainWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E3925427C1C81B00141FB1 /* MainWindow.swift */; };
+		E2E3925727C1C81C00141FB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2E3925627C1C81C00141FB1 /* Assets.xcassets */; };
+		E2E3926427C1C99F00141FB1 /* App (macOS).xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E2E3926327C1C99F00141FB1 /* App (macOS).xcconfig */; };
+		E2E3926627C1CA9A00141FB1 /* Pump.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E3926527C1CA9A00141FB1 /* Pump.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E20FA18727C1E24D007748C9 /* iCloudKeyValueStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCloudKeyValueStorage.swift; sourceTree = "<group>"; };
+		E2E3924F27C1C81B00141FB1 /* WARP+ Data Pump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WARP+ Data Pump.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2E3925227C1C81B00141FB1 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		E2E3925427C1C81B00141FB1 /* MainWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindow.swift; sourceTree = "<group>"; };
+		E2E3925627C1C81C00141FB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2E3925B27C1C81C00141FB1 /* Code Signing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Code Signing.entitlements"; sourceTree = "<group>"; };
+		E2E3926127C1C94000141FB1 /* Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		E2E3926327C1C99F00141FB1 /* App (macOS).xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "App (macOS).xcconfig"; sourceTree = "<group>"; };
+		E2E3926527C1CA9A00141FB1 /* Pump.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pump.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2E3924C27C1C81B00141FB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2E3924627C1C81B00141FB1 = {
+			isa = PBXGroup;
+			children = (
+				E2E3926127C1C94000141FB1 /* Project.xcconfig */,
+				E2E3926227C1C97E00141FB1 /* Shared */,
+				E2E3925127C1C81B00141FB1 /* App (macOS) */,
+				E2E3925027C1C81B00141FB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2E3925027C1C81B00141FB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2E3924F27C1C81B00141FB1 /* WARP+ Data Pump.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2E3925127C1C81B00141FB1 /* App (macOS) */ = {
+			isa = PBXGroup;
+			children = (
+				E2E3926327C1C99F00141FB1 /* App (macOS).xcconfig */,
+				E2E3925B27C1C81C00141FB1 /* Code Signing.entitlements */,
+				E2E3925227C1C81B00141FB1 /* Main.swift */,
+				E2E3925427C1C81B00141FB1 /* MainWindow.swift */,
+			);
+			path = "App (macOS)";
+			sourceTree = "<group>";
+		};
+		E2E3926227C1C97E00141FB1 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E2E3925627C1C81C00141FB1 /* Assets.xcassets */,
+				E20FA18727C1E24D007748C9 /* iCloudKeyValueStorage.swift */,
+				E2E3926527C1CA9A00141FB1 /* Pump.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2E3924E27C1C81B00141FB1 /* App (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2E3925E27C1C81C00141FB1 /* Build configuration list for PBXNativeTarget "App (macOS)" */;
+			buildPhases = (
+				E2E3924B27C1C81B00141FB1 /* Sources */,
+				E2E3924C27C1C81B00141FB1 /* Frameworks */,
+				E2E3924D27C1C81B00141FB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "App (macOS)";
+			productName = "WARP Plus Data Pump";
+			productReference = E2E3924F27C1C81B00141FB1 /* WARP+ Data Pump.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2E3924727C1C81B00141FB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					E2E3924E27C1C81B00141FB1 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = E2E3924A27C1C81B00141FB1 /* Build configuration list for PBXProject "Project" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2E3924627C1C81B00141FB1;
+			productRefGroup = E2E3925027C1C81B00141FB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2E3924E27C1C81B00141FB1 /* App (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2E3924D27C1C81B00141FB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2E3926427C1C99F00141FB1 /* App (macOS).xcconfig in Resources */,
+				E2E3925727C1C81C00141FB1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2E3924B27C1C81B00141FB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20FA18827C1E24D007748C9 /* iCloudKeyValueStorage.swift in Sources */,
+				E2E3925527C1C81B00141FB1 /* MainWindow.swift in Sources */,
+				E2E3926627C1CA9A00141FB1 /* Pump.swift in Sources */,
+				E2E3925327C1C81B00141FB1 /* Main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E2E3925C27C1C81C00141FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2E3926127C1C94000141FB1 /* Project.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2E3925D27C1C81C00141FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2E3926127C1C94000141FB1 /* Project.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E2E3925F27C1C81C00141FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2E3926327C1C99F00141FB1 /* App (macOS).xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "App (macOS)/Code Signing.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E2E3926027C1C81C00141FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2E3926327C1C99F00141FB1 /* App (macOS).xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "App (macOS)/Code Signing.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2E3924A27C1C81B00141FB1 /* Build configuration list for PBXProject "Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2E3925C27C1C81C00141FB1 /* Debug */,
+				E2E3925D27C1C81C00141FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2E3925E27C1C81C00141FB1 /* Build configuration list for PBXNativeTarget "App (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2E3925F27C1C81C00141FB1 /* Debug */,
+				E2E3926027C1C81C00141FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2E3924727C1C81B00141FB1 /* Project object */;
+}
